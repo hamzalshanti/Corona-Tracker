@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/Chart.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<title>JSON</title>
+</head>
+<body>
+
+	<div class="container">
+        <h1 class="text-center">Corona Viruse Tracker</h1>
+        <select name="" id="" >
+            <option value="-1">Global</option>
+        </select>
+
+        <div class="statistics">
+            <h2>Global</h2>
+            <div class="total-confirmed total-div">
+                <span><img src="assets/images/virus.svg" alt=""> Total Confirmed: </span>
+                
+                <span class='num'></span>
+            </div>
+            <div class="total-div total-infected">
+                <span><img src="assets/images/coronavirus.svg" alt=""> Total Infected: </span>
+                
+                <span class='num'></span>
+            </div>
+            <div class="total-div total-recovered">
+                <span><img src="assets/images/insurance.svg" alt=""> Total Recoverd: </span>
+                
+                <span class='num'></span>
+            </div>
+            <div class="total-div total-deaths">
+                <span><img src="assets/images/death.svg" alt=""> Total Deathes: </span>
+                
+                <span class='num'></span>
+            </div>
+            <div class="total-div recovery-rate">
+                <span><img src="assets/images/heart.svg" alt=""> Recovery rate: </span>
+                
+                <span class='num'></span>%
+            </div>
+            
+
+        </div>
+        
+        <div class="row charts">
+            <div class="col-12 col-lg-12 mb-3">
+                <div class="card">
+                    <div class="card-header">
+                    Top Confirmed Countries 
+                    </div>
+                    <div class="card-body">
+                        <canvas id="topConfirmed"></canvas>
+                    </div>
+                </div>
+                <!--card-->
+            </div>
+            <div class="col-12 col-lg-12 mb-3">
+                <div class="card">
+                    <div class="card-header">
+                    Recovery Rate % of Top Countries
+                    </div>
+                    <div class="card-body">
+                        <canvas id="topRecovered"></canvas>
+                    </div>
+                </div>
+                <!--card-->
+            </div>
+        </div>
+
+        <footer class="p-2">
+            <p class="text-center m-0">Made With <i class="fas fa-heart" style="color: #ff3f34;"></i> By Hamza &copy; 2020</p>
+        </footer>
+    </div>
+    <!--container-->
+</body>
+<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="assets/js/Chart.min.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<script>

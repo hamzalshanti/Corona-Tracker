@@ -1,0 +1,91 @@
+
+
+h1{
+    font-family: 'Piedra', cursive;
+    margin-bottom: 50px;
+}
+
+*{
+    font-family: 'Cousine', monospace;
+
+
+}
+body{
+    background: #121212;
+    color: #fff;
+    padding: 50px 0px 0px 0px;
+}
+
+
+img{
+    width: 35px;
+    color: aliceblue;
+}
+
+
+
+select {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background: none;
+    color: #fff;
+    outline: none;
+    margin-bottom: 50px;
+}
+
+select option {
+    margin: 40px;
+    background: rgb(31, 31, 31);
+    color: #fff;
+
+}
+
+.statistics{
+    margin-bottom: 50px;
+}
+
+.total-div {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.total-div span:first-child{
+    display: inline-block;
+    width: 300px;
+    color: #dc9191ee;
+}
+
+
+
+
+.charts{
+    margin-bottom: 50px;
+}
+
+.card{
+    background: none;
+}
+
+.card .card-header{
+    background: #1F1F1F;
+}
+
+.card .card-body{
+    padding: 0;
+}
+
+canvas{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px){
+    .total-div {
+        font-size: 1.2rem;
+    }
+    .total-div span:first-child{
+        width: 270px;
+    }
+}
